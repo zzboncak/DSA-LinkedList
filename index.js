@@ -182,6 +182,26 @@ function findLast(list) {
     return currNode;
 }
 
+function reverseList(list) {
+    //iterate through the linked list
+    //set the current element's next value to the previous node
+    let currNode = list.head;
+
+    let previousNode = list.head;
+
+    while(currNode !== null) {
+        // if(previousNode === list.head) {
+        //     currNode.next = null;
+        //     previousNode = currNode;
+        //     currNode = curr
+        // } else {
+        //     currNode.next = previousNode;
+        //     previousNode = currNode;
+        //     currNode = currNode.next;
+        // }
+    }
+}
+
 function main() {
     let SLL = new LinkedList();
 
@@ -244,4 +264,3 @@ What is the time complexity of this algorithm? */
  * This function checks a linked list for duplicates and its runtime is O(n^2)
  */
 
- 
